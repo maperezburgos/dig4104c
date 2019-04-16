@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +13,7 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
 <style>
@@ -31,7 +30,7 @@
     <div class="ui secondary menu">
       <div class="ui container">
       <a href="dashboard.php">
-        <img src="clusterizr.png" alt="Clusterizr" style="max-width:100%;height:auto">
+        <img src="images/clusterizr.png" alt="Clusterizr" style="max-width:100%;height:auto">
       </a>
 
       <div class="item center" id="centered">
@@ -106,5 +105,3 @@ Jobs Portal    </a>
   .dropdown()
 ;
 </script>
-  </body>
-  </html>
