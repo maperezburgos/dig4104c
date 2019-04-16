@@ -26,8 +26,8 @@
         </div>
         <div class="four wide centered column">
 					<div class="ui horizontal inverted small link list">
-						<a class="item" href="about.php">ABOUT</a>
-						<a class="item" href="#">CONTACT</a>
+						<a class="item" href="aboutold.php">ABOUT</a>
+						<a class="item" href="contact.php">CONTACT</a>
 					</div>
         </div>
         <div class="four wide centered column">
