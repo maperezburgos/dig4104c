@@ -1,3 +1,5 @@
+</div><!-- /container -->
+
 <!--Footer-->
 <div class="ui inverted vertical footer segment">
     <div class="ui container center aligned">
