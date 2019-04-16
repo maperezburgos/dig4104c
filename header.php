@@ -35,10 +35,10 @@
       </a>
 
       <div class="item center" id="centered">
-      <a class="item">
+      <a class="item" href="dashboard.php">
         Dashboard
       </a>
-      <a class="item" href="jobportal.php">
+      <a class="item" href="jobbportal.php">
         Job Portal
       </a>
     </div>
@@ -52,10 +52,10 @@
           <i class="dropdown icon"></i>
 
           <div class="menu">
-            <a class="item" href="messages.php">
+            <a class="item" href="jobbportal.php">
               Messages
             </a>
-            <a href="profile.php" class="item">
+            <a href="jobbportal.php" class="item">
               Your Profile
             </a>
           </div>
