@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,13 +8,73 @@
 
   <!-- Site Properties -->
   <title>Navbar and Footer</title>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+<style>
+#centered {
+    margin-left: calc(50% - 350px);
+    font-size: 1.3em;
+}
+</style>
 
 </head>
 <body>
-<!--Header-->
+
+  <!--Header-->
+    <div class="ui secondary menu">
+      <div class="ui container">
+      <a href="dashboard.php">
+        <img src="images/clusterizr.png" alt="Clusterizr" style="max-width:100%;height:auto">
+      </a>
+
+      <div class="item center" id="centered">
+      <a class="item" href="dashboard.php">
+        Dashboard
+      </a>
+      <a class="item" href="jobbportal.php">
+        Job Portal
+      </a>
+    </div>
+
+
+      <div class="right menu">
+
+
+        <div class="ui item dropdown">
+          <div class="text">Hello, username</div>
+          <i class="dropdown icon"></i>
+
+          <div class="menu">
+            <a class="item" href="jobbportal.php">
+              Messages
+            </a>
+            <a href="jobbportal.php" class="item">
+              Your Profile
+            </a>
+          </div>
+
+        </div>
+
+
+          <div class="ui item">
+            <button class="ui secondary button">
+              Logout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Header-->
+
+
+<!--Header-
   <div class="ui secondary  menu">
     <a class="active item" href="dashboard.php">
       Home
@@ -40,10 +99,10 @@ Jobs Portal    </a>
       </a>
     </div>
   </div>
-  <!--End Header-->
-  
-  
+  End Header-->
 
-</body>
-
-</html>
+  <script>
+  $('.ui.dropdown')
+  .dropdown()
+;
+</script>

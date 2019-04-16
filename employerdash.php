@@ -1,17 +1,18 @@
-
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Clusterizer | Employer Dashboard</title>
   <!-- Standard Meta -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properties -->
-  <title>Messages</title>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   <style>
       .container{
@@ -20,6 +21,7 @@
   </style>
 
 </head>
+
 <body>
 <?php  include 'header.php';?>
 
@@ -160,11 +162,11 @@
                         </div>
                     </form>
                     <!--<script src="./assets/js/pullticket.js"><script>-->
-                 
+
             </div>
       </div>
   </div>
-  
+
 <?php  include 'footer.php';?>
 
 <script type="text/javascript">
@@ -190,7 +192,7 @@
             </div>
         </div>`;
             $(".conversation").prepend(message);
-            $(".message").val(""); 
+            $(".message").val("");
         });
     });
 </script>

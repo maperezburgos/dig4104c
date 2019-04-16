@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Standard Meta -->
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<html lang="en">
+  <head>
+    <title>Clusterizr | Job Portal</title>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-        <title>User - Profile Page</title>
-    </head>
+    <!-- Site Properties -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  </head>
     <body>
        <?php  include 'header.php';?>
 
@@ -19,7 +23,7 @@
                 <div class="six wide column"></div>
                 <div class="four wide column">
                     <div class="ui small image">
-                        <img alt="profile_picture" src="" width="200px" height="200px">
+                        <img alt="profile_picture" src="images/profile-picture-placeholder.png" width="200px" height="200px">
                     </div>
                     <h3>Profile Name</h3>
                 </div>
@@ -48,7 +52,7 @@
             </div>
             <div class="two wide column"></div>
         </div>
-        
+
         <div class="ui grid">
             <div class="two wide column"></div>
             <div class="three wide column">
@@ -112,7 +116,7 @@
         <!-- Footer Area-->
         <?php  include 'footer.php';?>
 
-        
+
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> <!--jQuery-->
         <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
         <script></script>
