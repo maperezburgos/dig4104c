@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Clusterizr | Contact</title>
-    <!-- Standard Meta -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <!-- Site Properties -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <!-- Site Properties -->
+  <title>Clusterizr - Recruiter Sign Up</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-  </head>
-  <body>
-    <?php  include 'header.php';?>
+    <?php  include 'loginheader.php';?>
+
+        <div class="ui container">
 
     <h1>Signup</h1>
     <h3 class="ui dividing header">Recruiter</h3>
 
         <form action="" class="ui form">
-            <h4 class="ui dividing header">UCF Verification</h4>
             <div class="field">
                 <label>PID (numbers only)</label>
                 <div class="input">
@@ -65,65 +61,10 @@
                         <input type="text" name="country" placeholder="Countnry">
                     </div>
                 </div>
-                <label>Login Info</label>
-                <div class="fields">
-                    <div class="field">
-                        <input type="text" name="username" placeholder="User Name">
-                    </div>
-                    <div class="field">
-                        <input type="password" name="password" placeholder="Password">
-                    </div>
-                </div>
             </div>
             <input type="submit">
         </form>
-        <div class="ui inverted vertical footer segment">
-                <div class="ui center aligned container">
-                    <div class="ui stackable inverted divided grid">
-                        <div class="three wide column">
-                            <h4 class="ui inverted header">Group 1</h4>
-                            <div class="ui inverted link list">
-                                <a href="#" class="item">Link One</a>
-                                <a href="#" class="item">Link Two</a>
-                                <a href="#" class="item">Link Three</a>
-                                <a href="#" class="item">Link Four</a>
-                            </div>
-                        </div>
-                        <div class="three wide column">
-                            <h4 class="ui inverted header">Group 2</h4>
-                            <div class="ui inverted link list">
-                                <a href="#" class="item">Link One</a>
-                                <a href="#" class="item">Link Two</a>
-                                <a href="#" class="item">Link Three</a>
-                                <a href="#" class="item">Link Four</a>
-                            </div>
-                        </div>
-                        <div class="three wide column">
-                            <h4 class="ui inverted header">Group 3</h4>
-                            <div class="ui inverted link list">
-                                <a href="#" class="item">Link One</a>
-                                <a href="#" class="item">Link Two</a>
-                                <a href="#" class="item">Link Three</a>
-                                <a href="#" class="item">Link Four</a>
-                            </div>
-                        </div>
-                        <div class="seven wide column">
-                            <h4 class="ui inverted header">Footer Header</h4>
-                            <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
-                        </div>
-                    </div>
-                    <div class="ui inverted section divider"></div>
-                    <img src="assets/images/logo.png" class="ui centered mini image">
-                    <div class="ui horizontal inverted small divided link list">
-                        <a class="item" href="#">Site Map</a>
-                        <a class="item" href="#">Contact Us</a>
-                        <a class="item" href="#">Terms and Conditions</a>
-                        <a class="item" href="#">Privacy Policy</a>
-                    </div>
-                </div>
-            </div>
+
+</div>
 
        <?php  include 'footer.php';?>
-
-     </body>
-     </html>
