@@ -31,7 +31,7 @@
     <div class="ui secondary menu">
       <div class="ui container">
       <a href="dashboard.php">
-        <img src="clusterizer.png" alt="Clusterizr">
+        <img src="clusterizr.png" alt="Clusterizr" style="max-width:100%;height:auto">
       </a>
 
       <div class="item center" id="centered">
