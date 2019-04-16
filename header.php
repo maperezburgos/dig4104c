@@ -38,7 +38,7 @@
       <a class="item">
         Dashboard
       </a>
-      <a class="item">
+      <a class="item" href="jobportal.php">
         Job Portal
       </a>
     </div>
