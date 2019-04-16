@@ -106,5 +106,5 @@ Jobs Portal    </a>
   .dropdown()
 ;
 </script>
-  
-  <div class="container">
+  </body>
+  </html>
